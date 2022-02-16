@@ -9,13 +9,16 @@ video {
   height: auto;
   width: 90vw;
 }
+.player {
+  position: absolute;
+  z-index: 0;
+}
 
 .playIcon {
-  display: block;
-  width: 50px;
-  position: relative;
-  top: calc(-150px - 5vw - 5vw);
-  left: 50%;
+  position: absolute;
+  width: calc(30px + 5vw);
   background-color: transparent;
   border-radius: 50%;
+  z-index: 1;
+  
 }
