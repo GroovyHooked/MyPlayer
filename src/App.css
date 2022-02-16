@@ -1,0 +1,21 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  height: auto;
+  width: 90vw;
+}
+
+.playIcon {
+  display: block;
+  width: 50px;
+  position: relative;
+  top: calc(-150px - 5vw - 5vw);
+  left: 50%;
+  background-color: transparent;
+  border-radius: 50%;
+}
