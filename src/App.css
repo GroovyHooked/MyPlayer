@@ -1,4 +1,7 @@
+
+
 .container {
+  position: relative;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -21,4 +24,51 @@ video {
   border-radius: 50%;
   z-index: 1;
   
+}
+.pictureInPicture, .chromecast, .sharing {
+  width: calc(5px + 3vw);
+  background-color: black;
+}
+.partnerLogo {
+  height: calc(10px + 3vw );
+}
+
+
+.top-left {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  top: 3%;
+  left: 6%;
+  z-index: 3;
+}
+
+.title {
+  color: black;
+  white-space: nowrap;
+  margin: 0 0 0 calc(0px + 2vw);
+  font-size: calc(0.6rem + 1vw);
+}
+
+
+.top-right-icons{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 3%;
+  right: 6%;
+  width: 17%;
+  z-index: 3;
+}
+
+.bottom-right {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  bottom: 3%;
+  right: 6%;
+  width: 17%;
+  z-index: 3;
+
 }
