@@ -18,9 +18,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <img className="playIcon" src={path} onClick={playVid} />
-      <div className="player">
-        <div className="top-left">
+      <div className="top-left">
           <img className="partnerLogo" src="../../assets/img/grapefruit.jpeg" />
           <p className="title">Un titre avec un peu plus de texte</p>
         </div>
@@ -35,7 +33,8 @@ const App = () => {
           <img className="chromecast" src="../../assets/img/icon.png" />
           <img className="sharing" src="../../assets/img/icon.png" />
         </div>
-
+      <img className="playIcon" src={path} onClick={playVid} />
+      <div className="player">
         <video className="video">
           <source
             className="videomp4"
